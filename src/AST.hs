@@ -20,8 +20,7 @@ data Stmt
     | VarDeclST String Exp
     | VarDeclSI String Tp
     | Print Exp
-    | Return Exp
-    | ReturnNot
+    | Return
     | Assign String Exp         -- não deveria ser ID exp?   -- Atribuição simples, e.g., `x = 5`
     | PlusAssign String Exp
     | MinusAssign String Exp
